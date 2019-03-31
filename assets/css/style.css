@@ -1,0 +1,27 @@
+.response {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+}
+
+.row {
+    margin: auto;
+}
+
+#title {
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+}
+
+#noose {
+    width: 200px;
+}
+
+#game {
+    border: blue;
+    border-width: 2px;
+    border-style: solid;
+}

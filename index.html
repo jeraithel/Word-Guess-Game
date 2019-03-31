@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin's Word Guess Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class="row">
+            <img src="https://www.mindgames.com/uploaded/thumb/wildwesthangman300.jpg" id="title">
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-5">
+                <img src="https://ecdn.teacherspayteachers.com/thumbitem/Hangman-Word-Game-Template-Clip-Art-Set-for-Commercial-Use-2854413-1524279884/original-2854413-1.jpg" id="noose">
+            </div>
+            <div id="game" class="col-md-5">
+                <p>Press any key to get started!</p>
+                <!-- <p id="word"></p> -->
+                <span>Wins:</span>
+                <span class="align-middle" id="winCount"></span>
+                <br>
+                <span>Current Word:</span>
+                <span class="align-middle" id="currentWord"></span>
+                <br>
+                <span>Lives Remaining:</span>
+                <span class="align-middle" id="guessesRemaining">12</span>
+                <br>
+                <p>Letters Already Guessed:</p>
+                <span class="align-left" id="lettersWrong"></span>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+   
+</body>
+</html>
